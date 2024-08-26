@@ -6,11 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --env-file=.env serverAPI"
+    "start": "node --env-file=.env server -watch"
   },
   "author": "ErcanOzturk",
-  "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^3.1.4"
-  }
+  "license": "MIT"
 }
